@@ -1,17 +1,17 @@
-export const arrayItems =[
+export const arrayItems = [
   {
-    name:"Q&A",
-    id:"q&a",
-    description:"Responder preguntas basadas en el conocimiento existente.",
-    option:{
-      model:"text-davinci-003",
-      temperature:0,
-      max_tokens:1000,
-      top_p:1,
-      frequency_penalty:0.0,
-      presence_penalty:0.0,
+    name: 'Q&A',
+    id: 'q&a',
+    description: 'Responder preguntas basadas en el conocimiento existente.',
+    option: {
+      model: 'text-davinci-003',
+      temperature: 0,
+      max_tokens: 1000,
+      top_p: 1,
+      frequency_penalty: 0.0,
+      presence_penalty: 0.0
     }
-   },
+  },
   // {
   //   name:"Grammer Correction",
   //   id:"grammerCorrection",
@@ -62,13 +62,13 @@ export const arrayItems =[
   //   description:"Convert simple JavaScript expressions into Python.",
   // },
   {
-    name:"Generar imagen",
-    id:"gimage",
-    description:"Genera una imagen a partir de un texto dado.",
-    option:{
-      n:1,
-      size: "1024x1024",
+    name: 'Generar imagen',
+    id: 'gimage',
+    description: 'Genera una imagen a partir de un texto dado.',
+    option: {
+      n: 1,
+      size: '1024x1024'
     }
-    
-  },
+
+  }
 ]
